@@ -1,7 +1,7 @@
 {
     "name": "brainscloud",
     "version": "1.0.0",
-    "description": "brainscloud",
+    "description": "",
     "author": "brainscloud",
     "devDependencies": {
         "@babel/core": "^7.12.3",
