@@ -1,0 +1,38 @@
+.profile{
+
+    text-align: center;
+
+    &__avatar{
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto;
+        position: relative;
+
+        border-radius: 50%;
+        border: 2px solid $white;
+
+        box-shadow: 0 7px 20px rgba(0, 0, 0, .25);
+        margin-bottom: 2rem;
+    }
+
+    &__name{
+        font-size: 1.8rem;
+    }
+
+    &__prof{
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: $gray;
+        margin-bottom: 2rem;
+    }
+
+    &__text{
+        font-size: 1.2rem;
+        padding: 3rem 0;
+        margin: 3rem 0;
+        border-top: 1px solid #1C1C1C;
+        border-bottom: 1px solid #1C1C1C;
+    }
+
+}
