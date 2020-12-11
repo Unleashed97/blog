@@ -1,0 +1,65 @@
+.add-post{
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 15px 25px rgba($black, .45);
+    border-radius: 5px;
+    background-color: $secondary;
+
+    font-size: 1.5rem;
+    color: $white;
+
+    &__form{
+        display: flex;
+        align-items: center;
+    }
+
+    &__textarea{
+        display: block;
+        height: 26px;
+        width: 75%;
+        font-family: inherit;
+        color: $white;
+        border: 0;
+        background: transparent;
+        resize: none;
+
+        &::placeholder{
+            color: $gray;
+        }
+    }
+
+    &__actions{
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__file, &__send{
+        display: block;
+        width: 4.4rem;
+        height: 4.4rem;
+        border-radius: 50%;
+        border: 0;
+        cursor: pointer;
+        transition: background-color .2s linear;
+    }
+
+    &__file{
+        background: #EBEBEB url('../images/icons/add-photo.svg') center no-repeat;
+        input{
+            display: none;
+        }
+
+        &:hover{
+            background-color: darken(#EBEBEB, 10%);
+        }
+    }
+
+    &__send{
+        background-color: $blue;
+        margin-left: 1.5rem;
+        &:hover{
+            background-color: darken($blue, 10%);
+        }
+    }
+}

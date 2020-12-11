@@ -1,8 +1,11 @@
 .header{
-    height: 30px;
     width: calc(100% - #{$header-width});
 
-    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #0D0D0D;
+    box-shadow: 0 5px 22px rgba($black, .25);
 
     position: fixed;
     top: 0;
@@ -10,4 +13,13 @@
 
     z-index: $z-index-header;
 
+    &__left{
+        width: 60%;
+    }
+
+    &__right{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
