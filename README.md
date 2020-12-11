@@ -1,2 +1,4 @@
 # blog
-markup for practice #5
+For practice #5
+
+html, scss, javascript, gulp
