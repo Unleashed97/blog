@@ -16,6 +16,11 @@
 
     transition: background-color .2 linear;
 
+    &:hover{
+        text-decoration: none;
+        
+    }
+
     &--red{
         background-color: $red;
         box-shadow: 0 7px 17px -10px rgba($red, .2);

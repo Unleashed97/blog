@@ -1,0 +1,51 @@
+.work{
+    margin-bottom: 3rem;
+    overflow: hidden;
+
+    background-color: $primary;
+    box-shadow: 0 15px 25px rgba($black, .35);
+    border-radius: 5px;
+
+    display: flex;
+
+    &__preview{
+        width: 310px;
+
+        img{
+            display: block;
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        padding: 2.5rem;
+        width: 290px;
+    }
+    &__title{
+        font-size: 2.4rem;
+        font-weight: 500;
+        color: $white;
+        margin-bottom: 3rem;
+
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    &__description{
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: #D2D2D2;
+        margin-bottom: 3rem;
+    }
+
+    &__footer{
+        margin-top: auto;
+        text-align: right;
+    }
+}
