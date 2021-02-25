@@ -1,4 +1,5 @@
 # blog
-For practice #5
+
+layout training #6
 
 html, scss, javascript, gulp
